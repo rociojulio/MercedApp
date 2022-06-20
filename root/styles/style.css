@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+header {
+    padding: 40px 5px;
+    height: 20vh;
+    background-color: #0d1b2a;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.buscar-header {
+    display: flex;
+    align-items: baseline;
+    font-size: 12px;
+}
+
+.header1 {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.header1 i {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.header1 h1{
+    margin-left: 5px;
+}
+
+.buscar-header input{
+    border-radius: 10px;
+    width: 150px;
+    margin-right: 5px;
+    border: none;
+
+}
+
+.dni {
+    margin:10px 5px;
+    
+}
+
+.buscar::placeholder {
+    text-align: center;
+    color: #e0e1dd;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px;
+    border: #e0e1dd 2px solid;
+    border-radius: 10px;
+}
+
+.cards img {
+    width: 150px;
+    border-radius: 10px;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards h2 {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 3px;
+    background-color: #0d1b2a;
+    color: #e0e1dd;
+    border: none;
+    border-radius: 5px;
+}
+
+.cards button{
+    margin-bottom: 8px;
+}
+
+footer{
+    height: 10vh;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e1dd;
+    width: 100vw;
+}
+
+footer p{
+    text-align: center;
+}
